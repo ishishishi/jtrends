@@ -23,9 +23,9 @@ If the number of requests is too high, the script waits for 60 seconds before ma
 # Usage
 
 Run the script with the search queries as command line arguments. For example:
-
-$ python trend.py コロナウイルス COVID-19
-
+```
+python trend.py コロナウイルス COVID-19
+```
 ![result](https://github.com/ishishishi/trend/assets/153894879/5057a2ba-20b1-45b2-8390-04e7ff495209)
 
 If no command line arguments are provided, the script will prompt you to provide at least one search query.
